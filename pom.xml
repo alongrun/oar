@@ -11,6 +11,12 @@
     <modules>
         <module>org-oar-boot-module</module>
     </modules>
-
-
+    <dependencies>
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.13</version>
+    </dependency>
+    </dependencies>
 </project>
